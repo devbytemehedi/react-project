@@ -47,7 +47,7 @@ const Products = () => {
         Products: {products.length}
       </h2>
       <p className="text-center text-sm text-warning">Cart: {items.length}</p>
-      <div className="w-fit min-h-fit border border-solid border-success  p-5 m-5 flex flex-wrap gap-5 rounded-xl">
+      <div className="min-w-fit min-h-fit border border-solid border-success  p-5 my-5 mx-32 flex flex-wrap gap-5 rounded-xl">
         {items.map((item) => (
           <p key={item.id}>{item.name}</p>
         ))}
